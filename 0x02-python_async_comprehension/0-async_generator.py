@@ -6,6 +6,7 @@ import random
 from typing import Generator
 # Generator[yield_type, send_type, return_type]
 
+
 async def async_generator() -> Generator[float, None, None]:
     '''Coroutine that generates a sequence of 10 numbers.
     '''
